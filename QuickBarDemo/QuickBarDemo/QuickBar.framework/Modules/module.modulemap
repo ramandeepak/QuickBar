@@ -1,0 +1,11 @@
+framework module QuickBar {
+  umbrella header "QuickBar.h"
+
+  export *
+  module * { export * }
+}
+
+module QuickBar.Swift {
+    header "QuickBar-Swift.h"
+    requires objc
+}
